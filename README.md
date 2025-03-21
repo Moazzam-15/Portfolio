@@ -1,26 +1,18 @@
-# Portfolio
-Assignment
-https://github.com/Moazzam-15/Portfolio.git
-  workflow_dispatch:
+# Portfolio-GitHub
+# My Portfolio
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+Welcome to my portfolio! This website showcases my work and the skills I have developed during this course.
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+## Projects
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+### Project 1: **Personal Blog**
+- **Description**: A simple personal blog where I share my thoughts and experiences.
+- **Technologies Used**: HTML, CSS, JavaScript
+- **Link**: [Live Project](https://github.com/Moazzam-15/Portfolio-GitHub)
+### Project 2: **Task Manager App**
+- **Description**: A task management web application with interactive features.
+- **Technologies Used**: HTML, CSS, JavaScript, React
+- **Link**: [Live Project](https://Moazzam-15/github.io/Project2)
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+## My Portfolio
+- **Link to Live Portfolio**: [My Portfolio Website](https://Moazzam-15.github.io/portfolio/)
